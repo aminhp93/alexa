@@ -15,4 +15,3 @@ Project:
 	+ Deploy: Annet
 	+ API + Ajax
 	+ Presentation: Andy
-	
