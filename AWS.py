@@ -34,6 +34,9 @@
     },
     {
       "intent" : "AskBrendan"
+    },
+    {
+      "intent" : "twilioIntent"
     }
 
   ]
@@ -52,6 +55,7 @@ TextBrendenIntent Text Brendan
 GetTouchFaceIntent Tell what does Brenden say
 DojoBrendenIntent who is brenden
 AskBrendan what is touchface
+twilioIntent text annet
 
 
 
