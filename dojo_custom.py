@@ -84,6 +84,18 @@ def ask_brendan():
     return statement(response)
 
 
+@ask.intent("twilioIntent")
+
+def twilioIntentHandler():
+
+    account_sid = "AC7622914a70ec20b746fa9f5200f94a79"
+    auth_token = "f61cf7f88337ec156669d6f08ac693cf"
+    client = TwilioRestClient(account_sid, auth_token)
+
+    message = client.messages.create(to="+15102142298", from_="+16578889320", body="Hello Tuba there!")
+    response = render_template("message_sent")
+    return question(response)
+
 
 
 if __name__ == '__main__':

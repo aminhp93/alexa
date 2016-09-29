@@ -1,36 +1,38 @@
-welcome: Welcome to the Coding Dojo Skill. Great Job on getting started with your first skill. To get some examples of what this skill can do, ask for help now.
+#DONE
+welcome: "Welcome to our team presentation. Luba, Anette, Minh, and Andy all created an app where you can literally...Touch Face with Brenden."
 
 dojo_info_template: "The Coding Dojo is a 3 month immersive web developement bootcamp. During these 3 months you will learn 3 full web developement stacks. The stacks that we offer are... Django, Rails, Mean, and IOS."
 
-help_template: "To begin, you can say... tell me about the coding dojo... or you can ask questions such as... what stacks does dallas teach. Feel free to try one out now!"
+help_template: "To begin, you can say... tell me about touchface... or you can ask questions such as... what does Brendan like to say"
 
-invalid_city: "The location you asked for is invalid"
+message_sent: 'Sent message to Annet'
+
+# invalid_city: "The location you asked for is invalid"
 
 
 # templates for the DojoStackIntent
-san_jose_stacks: "The {{ city }} location teaches Python, MEAN, IOS, and Ruby on Rails."
+# san_jose_stacks: "The {{ city }} location teaches Python, MEAN, IOS, and Ruby on Rails."
 
-chicago_stacks: "The {{ city }} location teaches Python, MEAN, and Ruby on Rails."
+# chicago_stacks: "The {{ city }} location teaches Python, MEAN, and Ruby on Rails."
 
-seattle_stacks: "The {{ city }} location teaches Python, MEAN, IOS, and Ruby on Rails."
+# seattle_stacks: "The {{ city }} location teaches Python, MEAN, IOS, and Ruby on Rails."
 
-washington_stacks: "The {{ city }} DC location teaches Python, MEAN, and Ruby on Rails."
+# washington_stacks: "The {{ city }} DC location teaches Python, MEAN, and Ruby on Rails."
 
-burbank_stacks: "The {{ city }} location teaches Python, MEAN, PHP, IOS, and Ruby on Rails."
+# burbank_stacks: "The {{ city }} location teaches Python, MEAN, PHP, IOS, and Ruby on Rails."
 
-dallas_stacks: "The {{ city }} location teaches Python, MEAN, and Ruby on Rails."
+# dallas_stacks: "The {{ city }} location teaches Python, MEAN, and Ruby on Rails."
 
 
 
-# templates for the DojoInstructorIntent
-san_jose_instructors: "The {{ city }} instructors are Pariece, Jay, and Brendan."
+# templates for Brendan :)
 
-chicago_instructors: "The {{ city }} instructors are Chris, and Mike."
+brendan_template_1: "Do you want me to text Brendan or Touch his face... Just kidding, I'll text him."
 
-seattle_instructors: "The {{ city }} instructors are Martin, Speros, and Charlie."
+brendan_template_2: "Just remember Fat Model, skinny controller...Fat Model, skinny controller."
 
-washington_instructors: "The {{ city }} DC instructors are Mihn, and Dan."
+brendan_template_3: "He is a coding dojo Sensei. Michael Choi is his Soke, also known as the Grand Master."
 
-burbank_instructors: "The {{ city }} instructors are Chris, Eduardo, and Lance."
+brendan_template_4: "Touch face is great thing to interact with Brendan. He is a funny guy."
 
-dallas_instructors: "The {{ city }} instructors are Authman, and Liam."
+
