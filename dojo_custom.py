@@ -5,7 +5,7 @@ from random import randint
 from flask import Flask, render_template
 
 from flask_ask import Ask, statement, question, session
-
+print("I AM RIGHT HERE AT THE TOP OF THE FILE")
 
 app = Flask(__name__)
 
@@ -19,7 +19,6 @@ logging.getLogger("flask_ask").setLevel(logging.DEBUG)
 def launch_skill():
 
     welcome_msg = render_template('welcome')
-
     return question(welcome_msg)
 
 
@@ -39,31 +38,32 @@ def dojo_help():
 #--------OK Above-----------
 
 
-@ask.intent("DojoStackIntent", convert={'City': str})
+# @ask.intent("DojoStackIntent", convert={'City': str})
 
-def dojo_stacks(City):
-    response = ''
-    if City == "San Jose":
-        response = render_template("san_jose_stacks", city=City)
-    elif City == "Seattle":
-        response = render_template("seattle_stacks", city=City)
-    elif City == "Chicago":
-        response = render_template("chicago_stacks", city=City)
-    elif City == "Dallas":
-        response = render_template("dallas_stacks", city=City)
-    elif City == "Burbank":
-        response = render_template("burbank_stacks", city=City)
-    elif City == "Washington":
-        response = render_template("washington_stacks", city=City)
-    else:
-        response = render_template("invalid_city")
+# def dojo_stacks(City):
+#     response = ''
+#     if City == "San Jose":
+#         response = render_template("san_jose_stacks", city=City)
+#     elif City == "Seattle":
+#         response = render_template("seattle_stacks", city=City)
+#     elif City == "Chicago":
+#         response = render_template("chicago_stacks", city=City)
+#     elif City == "Dallas":
+#         response = render_template("dallas_stacks", city=City)
+#     elif City == "Burbank":
+#         response = render_template("burbank_stacks", city=City)
+#     elif City == "Washington":
+#         response = render_template("washington_stacks", city=City)
+#     else:
+#         response = render_template("invalid_city")
 
-    return statement(response)
+#     return statement(response)
 #-----------------------Ok above----------
 #--------------Custom functions below--------
 
 @ask.intent("TextBrendenIntent")
 def touch_face_with_Brenden():
+    print("I AM RIGHT HERE")
     response = render_template("brendan_template_1")
     return statement(response)
 

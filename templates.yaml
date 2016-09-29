@@ -5,21 +5,21 @@ dojo_info_template: "The Coding Dojo is a 3 month immersive web developement boo
 
 help_template: "To begin, you can say... tell me about touchface... or you can ask questions such as... what does Brendan like to say"
 
-invalid_city: "The location you asked for is invalid"
+# invalid_city: "The location you asked for is invalid"
 
 
 # templates for the DojoStackIntent
-san_jose_stacks: "The {{ city }} location teaches Python, MEAN, IOS, and Ruby on Rails."
+# san_jose_stacks: "The {{ city }} location teaches Python, MEAN, IOS, and Ruby on Rails."
 
-chicago_stacks: "The {{ city }} location teaches Python, MEAN, and Ruby on Rails."
+# chicago_stacks: "The {{ city }} location teaches Python, MEAN, and Ruby on Rails."
 
-seattle_stacks: "The {{ city }} location teaches Python, MEAN, IOS, and Ruby on Rails."
+# seattle_stacks: "The {{ city }} location teaches Python, MEAN, IOS, and Ruby on Rails."
 
-washington_stacks: "The {{ city }} DC location teaches Python, MEAN, and Ruby on Rails."
+# washington_stacks: "The {{ city }} DC location teaches Python, MEAN, and Ruby on Rails."
 
-burbank_stacks: "The {{ city }} location teaches Python, MEAN, PHP, IOS, and Ruby on Rails."
+# burbank_stacks: "The {{ city }} location teaches Python, MEAN, PHP, IOS, and Ruby on Rails."
 
-dallas_stacks: "The {{ city }} location teaches Python, MEAN, and Ruby on Rails."
+# dallas_stacks: "The {{ city }} location teaches Python, MEAN, and Ruby on Rails."
 
 
 
