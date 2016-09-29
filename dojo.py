@@ -95,10 +95,35 @@ def twilioIntentHandler():
     auth_token = "f61cf7f88337ec156669d6f08ac693cf"
     client = TwilioRestClient(account_sid, auth_token)
 
-    message = client.messages.create(to="+18057043552", from_="+16578889320", body="Hello Tuba there!")
-    response = render_template("message_sent")
+    message = client.messages.create(to="+17142135025", from_="+16578889320", body="Hello Tuba there!")
+    response = render_template("message_sent_to")
     return question(response)
 
+
+@ask.intent("GroupTextIntent", convert={'Name': str})
+
+def GroupTextIntentHandler(Name):
+
+    account_sid = "AC7622914a70ec20b746fa9f5200f94a79"
+    auth_token = "f61cf7f88337ec156669d6f08ac693cf"
+    client = TwilioRestClient(account_sid, auth_token)
+
+    if Name == "Andy":
+        message = client.messages.create(to="+18057043552", from_="+16578889320", body="Hello Andy you are doing well today!")
+        response = render_template("message_sent", name = Name)
+    elif Name == "Annet":
+        message = client.messages.create(to="+15102142298", from_="+16578889320", body="Hello Annet you are doing well today!")
+        response = render_template("message_sent", name = Name)
+    elif Name == "Tuba":
+        message = client.messages.create(to="+17032091080", from_="+16578889320", body="Hello Tuba you are doing well today!")
+        response = render_template("message_sent", name = Name)
+    elif Name == "Minh":
+        message = client.messages.create(to="+17142135025", from_="+16578889320", body="Hello Minh you are doing well today!")
+        response = render_template("message_sent", name = Name)
+    else:
+        response = render_template("message_not_sent")
+    return question(response)
+    
 
 
 if __name__ == '__main__':
