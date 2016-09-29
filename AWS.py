@@ -25,6 +25,17 @@
     },
     {
       "intent" : "twilioIntent"
+    },
+    {
+    {
+      "intent" : "GroupTextIntent",
+      "slots": [
+      {
+        "name": "Name",
+        "type": "MEMBERS"
+      }
+      ]
+    }
     }
   ]
 }
