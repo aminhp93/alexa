@@ -1,4 +1,4 @@
-# group_project_python
+# group_project_python 
 
 Member:
 * Annette
@@ -16,4 +16,4 @@ Project:
 	+ API + Ajax
 	+ Presentation: Andy
 
-http://aminhp93.github.io/alexa/
+https://aminhp93.github.io/alexa/
