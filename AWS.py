@@ -52,7 +52,7 @@ TextBrendenIntent I have a question
 GetTouchFaceIntent what does Brenden say
 DojoBrendenIntent who is brenden
 AskBrendan what is touchface
-twilioIntent text brendan
+twilioIntent message brendan
 GroupTextIntent text {Name}
 
 

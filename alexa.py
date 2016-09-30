@@ -114,7 +114,7 @@ def GroupTextIntentHandler(Name):
     elif Name == "Annet":
         message = client.messages.create(to="+15102142298", from_="+16578889320", body="Hello Annet you are doing well today!")
         response = render_template("message_sent", name = Name)
-    elif Name == "Tuba":
+    elif Name == "Luba":
         message = client.messages.create(to="+17032091080", from_="+16578889320", body="Hello Tuba you are doing well today!")
         response = render_template("message_sent", name = Name)
     elif Name == "Minh":
