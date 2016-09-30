@@ -1,6 +1,6 @@
 {
-  "name": "Alexa",
+  "name": "Alexa TouchFace",
   "tagline": "",
-  "body": "### Technologies Used\r\n\r\nTwilio API\r\nEcho Alexa\r\nAWS Lambda\r\nAWS Ubuntu\r\nPython\r\nFlask\r\nNgrok\r\n\r\n###Challenges\r\n\r\nNew Ubuntu upstart settings - more research\r\nUnable to deploy skill app with Twilio over AWS Lambda\r\nNaming Schema\r\n\r\n### Next Steps\r\n\r\nSlack API & Facebook API\r\nProgram more intents into skill\r\n\r\n### Authors and Contributors\r\n\r\nMinh - Lead Dev\r\nAndy - Backend Dev\r\nLuba - Backend Dev\r\nAnnette - Dev Ops\r\n",
+  "body": "### Technologies Used\r\n\r\n* Twilio API\r\n* Echo Alexa\r\n* AWS Lambda\r\n* AWS Ubuntu\r\n* Python\r\n* Flask\r\n* Ngrok\r\n\r\n###Challenges\r\n\r\n* New Ubuntu upstart settings - more research\r\n* Unable to deploy skill app with Twilio over AWS Lambda\r\n* Naming Schema\r\n\r\n### Next Steps\r\n\r\nSlack API & Facebook API\r\nProgram more intents into skill\r\n\r\n### Authors and Contributors\r\n\r\n* Minh - Lead Dev\r\n* Andy - Backend Dev\r\n* Luba - Backend Dev\r\n* Annette - Dev Ops\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
