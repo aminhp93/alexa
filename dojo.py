@@ -95,7 +95,7 @@ def twilioIntentHandler():
     auth_token = "f61cf7f88337ec156669d6f08ac693cf"
     client = TwilioRestClient(account_sid, auth_token)
 
-    message = client.messages.create(to="+17142135025", from_="+16578889320", body="Hello Tuba there!")
+    message = client.messages.create(to="+15103646406", from_="+16578889320", body="Hey Brendan, I touch your face lol!!!!")
     response = render_template("message_sent_to")
     return question(response)
 

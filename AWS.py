@@ -48,11 +48,11 @@
 
 DojoInfoIntent what is the coding dojo
 DojoInfoIntent tell me about the coding dojo
-TextBrendenIntent Text Brendan
-GetTouchFaceIntent Tell what does Brenden say
+TextBrendenIntent I have a question
+GetTouchFaceIntent what does Brenden say
 DojoBrendenIntent who is brenden
 AskBrendan what is touchface
-twilioIntent hi annet
+twilioIntent text brendan
 GroupTextIntent text {Name}
 
 

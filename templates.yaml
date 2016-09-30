@@ -5,7 +5,7 @@ dojo_info_template: "The Coding Dojo is a 3 month immersive web developement boo
 
 help_template: "To begin, you can say... tell me about touchface... or you can ask questions such as... what does Brendan like to say"
 
-message_sent_to: 'Sent message to Annet'
+message_sent_to: 'Do you want me to text Brendan or Touch his face... Just kidding, I'll text him.'
 
 message_sent: 'Sent message to {{ name }}'
 
@@ -32,7 +32,7 @@ message_not_sent: "not sent"
 
 # templates for Brendan :)
 
-brendan_template_1: "Do you want me to text Brendan or Touch his face... Just kidding, I'll text him."
+brendan_template_1: "Talk to Brendan"
 
 brendan_template_2: "Just remember Fat Model, skinny controller...Fat Model, skinny controller."
 
