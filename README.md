@@ -1,5 +1,7 @@
 # group_project_python 
 
+https://aminhp93.github.io/alexa/
+
 Member:
 * Annette
 * Lubava
@@ -16,4 +18,4 @@ Project:
 	+ API + Ajax
 	+ Presentation: Andy
 
-https://aminhp93.github.io/alexa/
+
